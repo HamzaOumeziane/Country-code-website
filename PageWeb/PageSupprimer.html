@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel='stylesheet' href='Style.css'>
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <a href="Index.html">Page d'accueil</a>
+        <a href="PageInserer.html">Insertion</a>
+        <a href="PageMettreAJour.html">Modification</a>
+        <a href="PageSupprimer.html">Suppression</a>
+        <a href="PageSelect.html">Selection</a>
+    </header>
+
+    <h2>Supprimmer un pays</h2>
+
+    <form action="http://localhost:3000/supprimer_pays" method="post">
+
+        <label for="id_pays">ID du pays :</label>
+        <input type="text" id="id_pays" name="id_pays" required><br>
+        <br>
+        <br>
+        <button type="submit">Supprimer pays</button>
+    </form>
+
+    <h3> Guide </h3>
+    <h4>Voici les ID des pays</h4>
+    <ol class="numero_pays">
+        <li>Algérie</li>
+        <li>Allemagne</li>
+        <li>Australie</li>
+        <li>Brésil</li>
+        <li>Canada</li>
+        <li>Chine</li>
+        <li>États-Unis</li>
+        <li>France</li>
+        <li>Inde</li>
+        <li>Italie</li>
+        <li>Japos</li>
+        <li>Corée du Sud</li>
+        <li>Mexique</li>
+        <li>Russie</li>
+        <li>Arabie Saoudite</li>
+        <li>Salvador</li>
+        <li>Syrie</li>
+        <li>Tunisie</li>
+    </ol>
+</body>
+
+</html>
